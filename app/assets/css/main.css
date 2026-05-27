@@ -265,3 +265,34 @@ h1, .hero-title {
   display: block; /* Added to allow margin auto to center */
   margin: 2rem auto 0 auto; /* Centered with top margin */
 }
+
+/* Avatar Component */
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.avatar.bg-primary {
+  background-color: var(--primary-accent-color);
+}
+
+.avatar.bg-secondary {
+  background-color: var(--secondary-accent-color);
+  color: var(--background-color);
+}
+
+.avatar.bg-neutral {
+  background-color: var(--background-light);
+}
+
+.avatar .initial {
+  font-size: 1.1rem;
+}
