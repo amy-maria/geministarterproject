@@ -195,29 +195,6 @@ h1, .hero-title {
   flex-wrap: wrap;
 }
 
-.feature-card {
-  background-color: var(--component-bg-color);
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  flex-basis: 300px;
-}
-
-.feature-title {
-  font-size: 1.3rem;
-  color: var(--secondary-accent-color);
-  margin-bottom: 1rem;
-}
-
-.feature-icon {
-  color: var(--primary-accent-color);
-  margin-bottom: 1.5rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Recent Combos Section */
 .recent-combos-section {
   padding: 4rem 2rem;
@@ -236,47 +213,6 @@ h1, .hero-title {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-}
-
-.combo-card {
-  background-color: var(--component-bg-color);
-  padding: 0 1.5rem 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  flex-basis: 300px;
-  text-align: left;
-  transition: transform 0.2s ease-in-out;
-}
-
-.combo-card:hover {
-    transform: translateY(-5px);
-}
-
-.combo-title {
-  font-size: 1.4rem;
-  color: var(--primary-accent-color);
-  margin-bottom: 0.5rem;
-}
-
-.combo-description {
-  font-size: 0.95rem;
-  color: var(--text-color-secondary);
-  margin-bottom: 1rem;
-}
-
-.combo-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.tag {
-  background-color: rgba(134, 229, 255, 0.2); /* secondary-accent-color with transparency */
-  color: var(--secondary-accent-color);
-  padding: 0.3rem 0.7rem;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: 500;
 }
 
 /* Create Page */
