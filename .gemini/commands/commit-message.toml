@@ -1,9 +1,9 @@
 description= "Create a commit message based on staged changes."
-prompt = '''
+prompt = ```
 Generate a commit message, listing and summarizing the main changes, based on the following git diff:
-'''diff
-!(git diff --staged)
-'''
+```diff
+!{git diff --staged}
+```
 
 Use emojis for types of changes:
 - for style changes use 👗
@@ -11,4 +11,4 @@ Use emojis for types of changes:
 - for new features use 💡
 -for docs use 📑
 
-'''
+```
