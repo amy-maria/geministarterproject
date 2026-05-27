@@ -1,5 +1,8 @@
 <script setup lang="ts">
-import { BookOpen, Users, Star } from 'lucide-vue-next';
+import { BookOpen, Users, Star } from 'lucide-vue-next'
+import marmiteImage from '../assets/kenailuj-english-breakfast-2150514_1920.jpg'
+import chocolateImage from '../assets/birgl-chocolate-4536570_1920.jpg'
+import strawberryImage from '../assets/rosinas-strawberry-4529640_1920.jpg'
 
 const features = [
   {
@@ -17,25 +20,28 @@ const features = [
     title: 'Rate and review',
     description: 'Help others by rating and reviewing combinations, and climb the leaderboard.'
   }
-];
+]
 
 const recentCombos = [
   {
     title: 'Marmite & Cheese',
     description: 'A classic savory delight, loved by many.',
-    tags: ['Savory', 'Classic']
+    tags: ['Savory', 'Classic'],
+    image: marmiteImage
   },
   {
     title: 'Maltesers & Salt & Vinegar Crisps',
     description: 'An unexpected sweet and salty crunch.',
-    tags: ['Sweet', 'Salty', 'Crunchy']
+    tags: ['Sweet', 'Salty', 'Crunchy'],
+    image: chocolateImage
   },
   {
     title: 'Strawberries & Black Pepper',
     description: 'A surprising burst of sweet and spicy.',
-    tags: ['Fruity', 'Spicy']
+    tags: ['Fruity', 'Spicy'],
+    image: strawberryImage
   }
-];
+]
 </script>
 
 <template>
@@ -76,6 +82,7 @@ const recentCombos = [
           :title="combo.title"
           :description="combo.description"
           :tags="combo.tags"
+          :image="combo.image"
         />
       </div>
     </section>

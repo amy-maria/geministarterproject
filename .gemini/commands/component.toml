@@ -1,6 +1,6 @@
-description = '
-Creates a new UI component and test file'
-prompt = ''' Before doing anything, run a shell command to see if there is any uncommitted, unstaged or untracked changes on the current branch. If there are uncommitted, unstaged or untracked changes, abort this process and tell the user. DO NOT GO ANY FURTHER.
+description = "Creates a new UI component and test file"
+prompt = '''
+Before doing anything, run a shell command to see if there is any uncommitted, unstaged or untracked changes on the current branch. If there are uncommitted, unstaged or untracked changes, abort this process and tell the user. DO NOT GO ANY FURTHER.
 You will be making a new Vue component for the nuxt app as described here - {{args}}.
 Your job is to:
 1. Derive a safe branch name based on that component description. The format of the branch should be: "component/<slug>", where the <slug> should be lowercase letters, kebab-case, and relatively short but descriptive.
